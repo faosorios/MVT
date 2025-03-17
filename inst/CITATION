@@ -1,0 +1,12 @@
+citHeader("To cite MVT package in publications use:")
+
+bibentry(bibtype = "Manual",
+  title = "Estimation and testing for the multivariate t-distribution",
+  author = as.person("F. Osorio"),
+  year = "2024",
+  note = "R package version 0.3-81",
+  url = "http://mvt.mat.utfsm.cl",
+  textVersion =
+  paste("Osorio, F. (2024). Estimation and testing for the multivariate t-distribution.",
+  "R package version 0.3-81.", "URL: http://mvt.mat.utfsm.cl")
+)

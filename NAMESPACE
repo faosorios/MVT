@@ -1,0 +1,25 @@
+useDynLib(MVT, .registration = TRUE)
+
+## required package
+import(fastmatrix)
+
+## base packages
+importFrom("graphics",
+           par)
+
+importFrom("stats",
+           cor, cov, cov2cor, mahalanobis, model.matrix, na.fail, na.omit, pchisq, 
+           qqnorm, quantile, terms, var)
+
+importFrom("utils",
+           setTxtProgressBar, txtProgressBar)
+
+# Our exports:
+export(dmt, envelope.student, equicorrelation.test, homogeneity.test, kurtosis.student, 
+       MVT.control, rmt, Student.family, Student, studentFit, WH.student)
+
+## register S3 methods
+S3method(print, Student.family)
+S3method(print, studentFit)
+S3method(print, equicorrelation.test)
+S3method(print, homogeneity.test)
