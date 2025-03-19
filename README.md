@@ -81,3 +81,11 @@ Osorio, F., Galea, M., Henriquez, C., Arellano-Valle, R. (2023). Addressing non-
 - Mignemi, G., Panzeri, A., Granziol, U., Bruno, G., Bertamini, M., Vidotto, G., Spoto, A. (2023). The mediating role of scientifical-medical satisfaction between COVID-19 conspiracy beliefs and vaccine confidence: A two-waves structural equation model. [Journal of Behavioral Medicine](https://doi.org/10.1007/s10865-022-00322-5) 46, 201-211
 - Hintz, E., Hofert, M., Lemieux, C. (2022). Multivariate Normal Variance Mixtures in R: The R Package nvmix. [Journal of Statistical Software](https://doi.org/10.18637/jss.v102.i02) 102, 1-31.
 - Punzo, A., Bagnato, L. (2020). Allometric analysis using the multivariate shifted exponential normal distribution. [Biometrical Journal](https://doi.org/10.1002/bimj.201900248) 62, 1525-1543.
+
+## Providing Feedback
+
+Please report any bugs/suggestions/improvements to [Felipe Osorio](https://faosorios.github.io/). If you find these routines useful or not then please let me know. Also, acknowledgement of the use of the routines is appreciated.
+
+## About the Author
+
+Felipe Osorio is an applied statistician and creator of several R packages. Webpage: [faosorios.github.io](https://faosorios.github.io/)
