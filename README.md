@@ -55,22 +55,22 @@ To cite package `MVT` in publications use:
 
 ``` r
 citation("MVT")
-#> 
-#> To cite MVT package in publications use:
-#> 
-#>   Osorio, F. (2024). Estimation and testing for the multivariate
-#>   t-distribution. R package version 0.3-81. URL:
-#>   http://mvt.mat.utfsm.cl
-#> 
-#> A BibTeX entry for LaTeX users is
-#> 
-#>   @Manual{,
-#>    title = {Estimation and testing for the multivariate t-distribution},
-#>    author = {F. Osorio},
-#>    year = {2024},
-#>    note = {R package version 0.3-81},
-#>    url = {https://github.com/faosorios/MVT},
-#>   }
+
+To cite MVT package in publications use:
+ 
+  Osorio, F. (2024). Estimation and testing for the multivariate
+  t-distribution. R package version 0.3-81. URL:
+  http://mvt.mat.utfsm.cl
+ 
+A BibTeX entry for LaTeX users is
+ 
+  @Manual{,
+   title = {Estimation and testing for the multivariate t-distribution},
+   author = {F. Osorio},
+   year = {2024},
+   note = {R package version 0.3-81},
+   url = {https://github.com/faosorios/MVT},
+  }
 ```
 ## Reference
 
