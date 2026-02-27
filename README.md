@@ -2,14 +2,12 @@
 
 <!-- badges: start -->
 [![CRAN status](http://www.r-pkg.org/badges/version/MVT)](https://cran.r-project.org/package=MVT)
+![CRAN/METACRAN](https://img.shields.io/cran/l/MVT?color=informational)
+![GitHub last commit](https://img.shields.io/github/last-commit/faosorios/MVT)
 [![CRAN RStudio mirror downloads](http://cranlogs.r-pkg.org/badges/MVT)](https://cran.r-project.org/package=MVT)
 <!-- badges: end -->
 
 `MVT` package contains a set of routines to perform estimation and inference under the multivariate t-distribution. These methods are a direct generalization of the multivariate inference under the gaussian assumption. In addition, these procedures provide robust methods useful against outliers.
-
-## Reference Manual
-
-* [MVT.pdf](https://cran.r-project.org/web/packages/MVT/MVT.pdf)
 
 ## Resources
 
@@ -20,7 +18,20 @@ Latest binaries and sources can be found at the [CRAN package repository](https:
 * [MVT_0.3-81.tgz](https://cran.r-project.org/bin/macosx/big-sur-arm64/contrib/4.4/MVT_0.3-81.tgz) - MacOS binaries (R-release, arm64)
 * [MVT_0.3-81.tgz](https://cran.r-project.org/bin/macosx/big-sur-x86_64/contrib/4.4/MVT_0.3-81.tgz) - MacOS binaries (R-release, x86_64)
 
-## Installation
+## Reference Manual
+
+* [PDF manual](https://cran.r-project.org/web/packages/MVT/MVT.pdf) | [HTML manual](https://cran.r-project.org/web/packages/MVT/refman/MVT.html)
+
+## Features
+
+-   Basic functionality for modeling using the multivariate t-distribution.
+-   Estimation of mean, covariance matrix and the shape (kurtosis) parameter using the EM algorithm.
+-   The core routines have been implemented in C and linked to R to ensure a reasonable computational speed.
+-   Performs hypothesis testing about the equicorrelation or homogeneity of variances structures for the covariance matrix, considering the test statistics of likelihood ratio, score, Wald or gradient.
+-   Multivariate random number generation for the multivariate t- (and gaussian) distribution.
+-   Graphical methods for assessing the assumption of multivariate t- (and gaussian) distribution.
+
+## Installation instructions
 
 Install `MVT` from CRAN using.
 
@@ -40,19 +51,11 @@ R CMD INSTALL MVT
 ```
 Next, you can load the package by using the command `library(MVT)`
 
-## Features
+## Providing Feedback
 
--   Basic functionality for modeling using the multivariate t-distribution.
--   Estimation of mean, covariance matrix and the shape (kurtosis) parameter using the EM algorithm.
--   The core routines have been implemented in C and linked to R to ensure a reasonable computational speed.
--   Performs hypothesis testing about the equicorrelation or homogeneity of variances structures for the covariance matrix, considering the test statistics of likelihood ratio, score, Wald or gradient.
--   Multivariate random number generation for the multivariate t- (and gaussian) distribution.
--   Graphical methods for assessing the assumption of multivariate t- (and gaussian) distribution.
+Please report any bugs/suggestions/improvements to [Felipe Osorio](https://faosorios.github.io/). If you find these routines useful or not then please let me know. Also, acknowledgement of the use of the routines is appreciated.
 
-## Citation
-
-To cite package `MVT` in publications use:
-
+### To cite package `MVT` in publications use:
 ``` r
 citation("MVT")
 
@@ -72,6 +75,7 @@ A BibTeX entry for LaTeX users is
    url = {https://github.com/faosorios/MVT},
   }
 ```
+
 ## Reference
 
 Osorio, F., Galea, M., Henriquez, C., Arellano-Valle, R. (2023). Addressing non-normality in multivariate analysis using the t-distribution. [AStA Advances in Statistical Analysis](https://doi.org/10.1007/s10182-022-00468-2) 107, 785-813.
@@ -81,10 +85,6 @@ Osorio, F., Galea, M., Henriquez, C., Arellano-Valle, R. (2023). Addressing non-
 - Mignemi, G., Panzeri, A., Granziol, U., Bruno, G., Bertamini, M., Vidotto, G., Spoto, A. (2023). The mediating role of scientifical-medical satisfaction between COVID-19 conspiracy beliefs and vaccine confidence: A two-waves structural equation model. [Journal of Behavioral Medicine](https://doi.org/10.1007/s10865-022-00322-5) 46, 201-211
 - Hintz, E., Hofert, M., Lemieux, C. (2022). Multivariate Normal Variance Mixtures in R: The R Package nvmix. [Journal of Statistical Software](https://doi.org/10.18637/jss.v102.i02) 102, 1-31.
 - Punzo, A., Bagnato, L. (2020). Allometric analysis using the multivariate shifted exponential normal distribution. [Biometrical Journal](https://doi.org/10.1002/bimj.201900248) 62, 1525-1543.
-
-## Providing Feedback
-
-Please report any bugs/suggestions/improvements to [Felipe Osorio](https://faosorios.github.io/). If you find these routines useful or not then please let me know. Also, acknowledgement of the use of the routines is appreciated.
 
 ## About the Author
 
